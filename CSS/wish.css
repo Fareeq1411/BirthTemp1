@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    background-color: black;
+    width: 100vw;
+    height: 450vh;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 450vh; /* Temporary large height to test scrolling */
+    overflow-x: hidden;
+    border: solid;
+    position: relative;
+}
+
+
+/* .inner-container{
+
+/*     position: relative; 
+    width: 100;
+    height: fit-content; 
+}
+ */
+
+
+.wrapper{
+
+    position: absolute;
+    display: block;
+    border: solid;
+    width: 40vw;
+    height: 80vh;
+    overflow: hidden;
+    color: white;
+
+}
+
+.wrapper1{
+
+    rotate: -25deg;
+    left: -7vw;
+    border-bottom: solid white 15vh;
+    border-right: solid white 2vh;
+    border-left: solid white 2vh;
+    border-top: solid white 2vh;
+}
+
+.wrapper2{
+
+    rotate: 25deg;
+    top: 80vh;
+    left: -4vw;
+    border-bottom: solid white 15vh;
+    border-right: solid white 2vh;
+    border-left: solid white 2vh;
+    border-top: solid white 2vh;
+}
+
+.wrapper3{
+
+    rotate: -5deg;
+    top: 160vh;
+    left: 0vw;
+    border-bottom: solid white 15vh;
+    border-right: solid white 2vh;
+    border-left: solid white 2vh;
+    border-top: solid white 2vh;
+}
+
+
+.wrapper4{
+
+    rotate: 15deg;
+    top: 230vh;
+    left: -1vw;
+    border-bottom: solid white 15vh;
+    border-right: solid white 2vh;
+    border-left: solid white 2vh;
+    border-top: solid white 2vh;
+}
+
+.wrapper5{
+
+    border: none;
+    top: 1vh;
+    left: 55vw;
+}
+
+.wrapper6{
+
+    border: none;
+    top: 320vh;
+    left: 5vw;
+}
+
+.wrapper7{
+
+    width: 60vw;
+    height: 100vh;
+    border-radius: 7vh;
+    top: 90vh;
+    left: 55vw;
+    background-color: #c8c9bd;
+    border: 3vh solid white;
+}
+
+.wrapper8{
+
+    width: 50vw;
+    height: 90vh;
+    border-radius: 50%;
+    top: 200vh;
+    left: 45vw;
+    border: none;
+    
+    
+}
+
+.wrapper9{
+
+   
+    width: 70vw;
+    height: 80vh;
+    border-radius: 60%;
+    top: 300vh;
+    left: 60vw;
+    background-color: #c8c9bd;
+    border: 3vh solid white;
+}
+
+.cake{
+
+    height: auto;
+    width: 100%;
+}
+
+.hb {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.frame {
+
+    height: auto;
+    width: 100%;
+    scale: 3;
+}
